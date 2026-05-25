@@ -1,8 +1,7 @@
 # ==================================================
 # DATABASE TARGET AUDIT JARINGAN
-# Total Target Unik: 178
+# Total Target Unik: 667
 # ==================================================
-
 104.16.109.96
 104.16.110.96
 104.16.18.94
@@ -136,12 +135,6 @@ zendesk1.snapchat.com
 zendesk3.grabtaxi.com
 zendeks1.appsflyer.com
 zoomappdocs.zoom.us
-
-# ==================================================
-# DATABASE TARGET AUDIT JARINGAN (DI-EKSTRAK DARI DOKUMEN V2.0)
-# Total Target Unik: 153 Host/IP Valid
-# ==================================================
-
 104.16.107.96
 104.16.108.96
 104.16.109.96
