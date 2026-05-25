@@ -88,11 +88,11 @@ REPORT="🌐 MASS NETWORK AUDIT REPORT 🌐
 🎯 Total Target: $(wc -l < "$DB_FILE" | tr -d ' ') host (Disortir Unik)
 =============================="
 
-REPORT+="\n\n✅ HOST LIVE / HTTP 200 OK:\n"
+REPORT+="\n\n✅ HOST LIVE / CLOUDPLER ON:\n"
 HTTP_RES=$(echo "$ram_buffer" | grep "^HTTP_200" | awk -F'|' '{print " -> " $2 " [" $3 "]"}')
 if [ -z "$HTTP_RES" ]; then REPORT+=" (Tidak ada host HTTP 200)\n"; else REPORT+="$HTTP_RES\n"; fi
 
-REPORT+="\n✅ HOST OPOK / TLS SUCCESS (443):\n"
+REPORT+="\n✅ HOST OPEN / ALL ONLINE:\n"
 TLS_RES=$(echo "$ram_buffer" | grep "^TLS_OK" | awk -F'|' '{print " -> " $2 " (" $3 ")"}')
 if [ -z "$TLS_RES" ]; then REPORT+=" (Tidak ada host TLS yang sukses)\n"; else REPORT+="$TLS_RES\n"; fi
 
