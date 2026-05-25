@@ -1,7 +1,6 @@
-# Mass-Network-Audit
 # 🌐 Mass Network Audit Tool v8.0
 
-Mass Network Audit Tool adalah script Bash ringan dan super cepat yang dirancang untuk melakukan *scanning* (audit) massal pada daftar host/domain. Script ini sangat berguna untuk memfilter *bug host* aktif yang merespons HTTP 200 OK atau berhasil melakukan koneksi TLS Handshake (OPOK).
+Mass Network Audit Tool adalah script Bash ringan dan super cepat yang dirancang untuk melakukan *scanning* (audit) massal pada daftar host/domain. Script ini sangat berguna untuk memfilter *bug host* aktif yang merespons HTTP 200 OK atau berhasil melakukan koneksi TLS Handshake
 
 Hasil audit akan ditampilkan secara rapi di layar terminal dan dikirimkan secara otomatis dalam bentuk file `.txt` ke bot Telegram Anda! 🚀
 
@@ -16,5 +15,4 @@ Hasil audit akan ditampilkan secara rapi di layar terminal dan dikirimkan secara
 ---
 
 ## 🛠️ Persyaratan (Prerequisites)
-Pastikan Anda sudah menginstal paket-paket dasar berikut di terminal (Termux/Linux):
-```bash
+Pastikan Anda sudah menginstal paket-paket dasar berikut di terminal (Termux):
