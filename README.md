@@ -1,3 +1,6 @@
+wget -q https://raw.githubusercontent.com/Smarasanta/Mass-Network-Audit/refs/heads/main/Files/audit.sh && wget -q https://raw.githubusercontent.com/Smarasanta/Mass-Network-Audit/refs/heads/main/Files/host.txt && chmod +x audit.sh
+
+
 # 🌐 Mass Network Audit Tool v8.0
 
 Mass Network Audit Tool adalah script Bash ringan dan super cepat yang dirancang untuk melakukan *scanning* (audit) massal pada daftar host/domain. Script ini sangat berguna untuk memfilter *bug host* aktif yang merespons HTTP 200 OK atau berhasil melakukan koneksi TLS Handshake
